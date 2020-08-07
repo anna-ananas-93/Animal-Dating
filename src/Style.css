@@ -1,0 +1,79 @@
+body {
+  margin: 10px;
+}
+
+.greeting { 
+  text-align: center;
+  font-family: fantasy;
+  font-size: 20px;
+  color: deeppink;
+}
+
+.contacts {
+  display: flex;
+  justify-content : center; 
+}
+
+
+.contact-card {
+  height: 380px;
+  width:380px;
+  margin: 20px;
+  padding-top: 20px;
+  
+}
+.contact-card button{ 
+
+  border-radius: 8px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color:blueviolet;
+  border: green;
+  background-color: aliceblue;
+ 
+}
+
+.front-img-with-text {
+  display:flex;
+  flex-direction: column;
+}
+
+.back {
+  font-size: 20px;
+  font-family: fantasy;
+  color: green;
+  padding: 10px;
+  padding-top: 80px;
+ 
+}
+
+.contact-card  img { /*Do not touch*/
+  object-fit: scale-down;
+  height: 380px;
+  width: 380px;
+  border-radius: 8px;
+}
+.presentation:hover {
+ background-color:  aqua;
+}
+
+.name{
+  font-size: 20px;
+}
+
+.presentation {
+  color: darkslategray;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.party-trick{
+  font-size: 20px;
+}
+
+
+
+
